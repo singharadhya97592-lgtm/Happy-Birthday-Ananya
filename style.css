@@ -5,18 +5,20 @@
     font-family:Arial, Helvetica, sans-serif;
 }
 
-body{
+body{   
     height:100vh;
     display:flex;
     justify-content:center;
     align-items:center;
     background:linear-gradient(135deg,#dff7df,#f8fff3,#eefbe8);
     overflow:hidden;
+    padding:20px;
 }
 
 .container{
     width:90%;
     max-width:420px;
+    margin:auto;
     background:#ffffff;
     padding:40px 30px;
     border-radius:25px;
