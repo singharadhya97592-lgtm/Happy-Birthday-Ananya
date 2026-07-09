@@ -16,15 +16,12 @@ body{
 }
 
 .container{
-    width:90%;
-    max-width:420px;
-    margin:auto;
-    background:#ffffff;
-    padding:40px 30px;
-    border-radius:25px;
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
     text-align:center;
-    box-shadow:0 15px 40px rgba(0,0,0,0.12);
-    animation:fadeIn 1.2s ease;
 }
 
 h3{
@@ -114,4 +111,11 @@ width:90%;
     margin:20px auto;
     line-height:1.9;
     margin-bottom:18px;
+}
+.start-btn:hover{
+    transform:scale(1.05);
+}
+
+.start-btn{
+    box-shadow:0 8px 20px rgba(106,168,79,0.35);
 }
