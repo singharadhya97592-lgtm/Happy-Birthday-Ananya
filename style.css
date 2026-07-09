@@ -90,7 +90,7 @@ html{
 
 .message{
     max-width:700px;
-    margin:120px auto;
+    margin:300px auto 120px auto;
     background:white;
     padding:40px;
     border-radius:25px;
