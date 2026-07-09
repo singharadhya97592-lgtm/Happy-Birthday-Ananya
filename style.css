@@ -69,3 +69,41 @@ button:hover{
         transform:translateY(0);
     }
 }
+html{
+    scroll-behavior:smooth;
+}
+
+.start-btn{
+    display:inline-block;
+    text-decoration:none;
+    background:#6aa84f;
+    color:white;
+    padding:15px 35px;
+    border-radius:50px;
+    font-size:18px;
+    transition:.3s;
+}
+
+.start-btn:hover{
+    transform:scale(1.05);
+}
+
+.message{
+    max-width:700px;
+    margin:120px auto;
+    background:white;
+    padding:40px;
+    border-radius:25px;
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+    text-align:center;
+}
+
+.message h2{
+    color:#2f5d3b;
+    margin-bottom:25px;
+}
+
+.message p{
+    line-height:1.9;
+    margin-bottom:18px;
+}
