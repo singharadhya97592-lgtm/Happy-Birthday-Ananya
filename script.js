@@ -2,18 +2,27 @@ const startBtn = document.getElementById("startBtn");
 
 startBtn.addEventListener("click", () => {
 
-    startBtn.innerHTML = "Loading Memories... 🌿";
-
-    startBtn.style.transform = "scale(0.95)";
+    document.body.style.transition = "0.8s";
+    document.body.style.opacity = "0";
 
     setTimeout(() => {
 
-        alert("✨ Welcome, Ananya! Your journey begins here... 💚");
+        document.body.innerHTML = `
+        <div class="container">
+            <h1>🌿 Chapter One</h1>
 
-        startBtn.innerHTML = "Start Journey 🌿";
+            <p class="quote">
+                "Every beautiful friendship starts with one hello..."
+            </p>
 
-        startBtn.style.transform = "scale(1)";
+            <button onclick="location.reload()">
+                💚 Go Back
+            </button>
+        </div>
+        `;
 
-    },1500);
+        document.body.style.opacity = "1";
+
+    },800);
 
 });
